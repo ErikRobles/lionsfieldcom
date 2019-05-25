@@ -1,0 +1,26 @@
+.footer {
+    background-image: url(../assets/img/skyline.jpg);
+    background-repeat: no-repeat; 
+    background-position: bottom;
+    background-size: cover;
+    padding: 30px;
+    min-height: 200px;
+    width: 100%;
+    display: inline-block;
+}
+
+.social {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fab {
+    font-size: 18px;
+    color: rgba(255,255,255,0.5);
+
+}
+
+.copyright-info {
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+}

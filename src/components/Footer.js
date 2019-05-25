@@ -1,35 +1,33 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import './Footer.css';
+import logo from '../assets/img/logo.png';
 
- 
-
-
-const Styles = styled.div`
- .footer {
-    background-color: #25a7d9!important;
- }
-`;
-
-export default class Footer extends Component {
-  render() {
-    return (
-        <Styles>
-        <footer className="footer p-5 mt-5 text-center">
-        <div className="container">
-          <span className="text-white">Copyright &copy; 2019 RR Spark - Psicoterapia Viaje a Tu Interior</span>
-          
-              <p className="mt-3">
-              <a className="pl-3 pr-3" href="#" target="blank">
-              <i className="fa fa-linkedin fa-2x" style={{color: "white"}}></i>
-              </a>
-              <Link className="pl-3 pr-3" to="Contacto">
-              <i className="fa fa-envelope fa-2x" style={{color: "white"}}></i>
-              </Link>
-              </p>
-        </div>
-      </footer>
-      </Styles> 
-    )
-  }
+class Footer extends Component {
+    getYear() {
+        return new Date().getFullYear();
+    }
+    render() {
+        return (
+            <footer className="footer">
+                <div className="footer-logo text-center mt-3">
+                <a className="lionsfield-logo" href="/"><img src={logo}></img></a>
+                </div>
+                <div className="social">
+                    <a href="/">
+                        <i className="fab fa-twitter pl-3 pr-3"></i>
+                    </a>
+                    <a href="https://www.facebook.com/Become-by-Lionsfield-2245436365705598/" target="_blank">
+                        <i className="fab fa-facebook-f pl-3 pr-3"></i>
+                    </a>
+                </div>
+                <div className="copyright-info pt-3 pb-3">
+                    <span>
+                    All Rights Reserved &copy; {this.getYear()} 
+                    </span>
+                </div>
+            </footer>
+        );
+    }
 }
+
+export default Footer

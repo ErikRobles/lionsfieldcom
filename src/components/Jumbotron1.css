@@ -1,0 +1,52 @@
+.jumbotron1 {
+    background: #000;  
+    background-image: url(../assets/img/home.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+    min-height: 300px;
+    z-index: 0;
+    /* padding-top: 130px; */
+    padding-bottom: 130px;
+}
+
+.caption {
+    font-weight: bold;
+    font-size: 5vw;
+    font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+.sub-caption h3 {
+    font-weight: bold;
+    font-size: 2.5vw;
+    font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+}
+
+@media (min-width: 900px) {
+    .caption {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    .sub-caption h3{
+        font-size: 28px;
+        padding-bottom: 20px;
+    } 
+}
+
+.jumbotron-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.caption-background {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 4.5px;
+    z-index: 2;
+}
