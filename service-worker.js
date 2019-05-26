@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lionsfieldcom/precache-manifest.7b4ffa7396ceac48ef7b02f2f3e10c10.js"
+  "/lionsfieldcom/precache-manifest.92b23f5d0f84b7c5ac3cfcc3f49a96b4.js"
 );
 
 self.addEventListener('message', (event) => {
