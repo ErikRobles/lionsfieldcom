@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Erik Robles",
   "private": true,
-  "homepage": "https://erikrobles.github.io/lionsfieldcom",
+  "homepage": "https://erikrobles.github.io/lionsfieldcom/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
