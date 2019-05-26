@@ -14,7 +14,7 @@ import Contacto from './pages/Contacto';
 class App extends Component {
   render() {
     return (
-      <Router basename="/"> 
+      <Router basename="/lionsfieldcom"> 
         <div>
         <Route path={process.env.PUBLIC_URL + '/'} component={Inicio} />
         <Route path={process.env.PUBLIC_URL + '/Gamification'} component={Gamification} />
