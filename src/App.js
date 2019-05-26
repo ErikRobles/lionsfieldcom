@@ -14,15 +14,15 @@ import Contacto from './pages/Contacto';
 class App extends Component {
   render() {
     return (
-      <Router basename="/lionsfieldcom"> 
+      <Router> 
         <div>
-        <Route path={process.env.PUBLIC_URL + '/'} component={Inicio} />
-        <Route path={process.env.PUBLIC_URL + '/Gamification'} component={Gamification} />
-        <Route path={process.env.PUBLIC_URL + '/TotalMultimedia'} component={TotalMultimedia} />
-        <Route path={process.env.PUBLIC_URL + '/ELearning'} component={ELearning} />
-        <Route path={process.env.PUBLIC_URL + '/AbsoluteEngagement'} component={AbsoluteEngagement} />
-        <Route path={process.env.PUBLIC_URL + '/Nosotros'} component={Nosotros} />
-        <Route path={process.env.PUBLIC_URL + '/Contacto'} component={Contacto} />
+        <Route exact path='/' component={Inicio} />
+        <Route exact path='/Gamification' component={Gamification} />
+        <Route exact path='/TotalMultimedia' component={TotalMultimedia} />
+        <Route exact path='/ELearning' component={ELearning} />
+        <Route exact path='/AbsoluteEngagement' component={AbsoluteEngagement} />
+        <Route exact path='/Nosotros' component={Nosotros} />
+        <Route exact path='/Contacto' component={Contacto} />
         </div>
       </Router>
     );
