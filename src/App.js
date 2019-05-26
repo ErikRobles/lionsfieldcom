@@ -14,7 +14,7 @@ import Contacto from './pages/Contacto';
 class App extends Component {
   render() {
     return (
-      <Router> 
+      <Router basename="lionsfieldcom"> 
         <div>
         <Route exact path='/' component={Inicio} />
         <Route exact path='/Gamification' component={Gamification} />
