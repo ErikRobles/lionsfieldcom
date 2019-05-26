@@ -16,13 +16,13 @@ class App extends Component {
     return (
       <Router basename="lionsfieldcom"> 
         <div>
-        <Route exact path='/lionsfieldcom/' component={Inicio} />
-        <Route exact path='/lionsfieldcom/Gamification' component={Gamification} />
-        <Route exact path='/lionsfieldcom/TotalMultimedia' component={TotalMultimedia} />
-        <Route exact path='/lionsfieldcom/ELearning' component={ELearning} />
-        <Route exact path='/lionsfieldcom/AbsoluteEngagement' component={AbsoluteEngagement} />
-        <Route exact path='/lionsfieldcom/Nosotros' component={Nosotros} />
-        <Route exact path='/lionsfieldcom/Contacto' component={Contacto} />
+        <Route exact path='/' component={Inicio} />
+        <Route exact path='/Gamification' component={Gamification} />
+        <Route exact path='/TotalMultimedia' component={TotalMultimedia} />
+        <Route exact path='/ELearning' component={ELearning} />
+        <Route exact path='/AbsoluteEngagement' component={AbsoluteEngagement} />
+        <Route exact path='/Nosotros' component={Nosotros} />
+        <Route exact path='/Contacto' component={Contacto} />
         </div>
       </Router>
     );
