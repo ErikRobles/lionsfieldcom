@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lionsfieldcom/static/css/main.7213c464.chunk.css",
+    "main.css": "/lionsfieldcom/static/css/main.89302495.chunk.css",
     "main.js": "/lionsfieldcom/static/js/main.c8a1a1a0.chunk.js",
     "main.js.map": "/lionsfieldcom/static/js/main.c8a1a1a0.chunk.js.map",
     "runtime~main.js": "/lionsfieldcom/static/js/runtime~main.db0f646d.js",
@@ -8,9 +8,9 @@
     "static/js/2.470168ec.chunk.js": "/lionsfieldcom/static/js/2.470168ec.chunk.js",
     "static/js/2.470168ec.chunk.js.map": "/lionsfieldcom/static/js/2.470168ec.chunk.js.map",
     "index.html": "/lionsfieldcom/index.html",
-    "precache-manifest.5f24b999053173fa4e50ba9c3da787de.js": "/lionsfieldcom/precache-manifest.5f24b999053173fa4e50ba9c3da787de.js",
+    "precache-manifest.01d8f836516526d2c05031add8a1bd8d.js": "/lionsfieldcom/precache-manifest.01d8f836516526d2c05031add8a1bd8d.js",
     "service-worker.js": "/lionsfieldcom/service-worker.js",
-    "static/css/main.7213c464.chunk.css.map": "/lionsfieldcom/static/css/main.7213c464.chunk.css.map",
+    "static/css/main.89302495.chunk.css.map": "/lionsfieldcom/static/css/main.89302495.chunk.css.map",
     "static/media/Navbar.css": "/lionsfieldcom/static/media/background-nav.2922c0c4.jpg",
     "static/media/Jumbotron1.css": "/lionsfieldcom/static/media/home.72bd47ac.jpg",
     "static/media/Footer.css": "/lionsfieldcom/static/media/skyline.c46d9006.jpg"
