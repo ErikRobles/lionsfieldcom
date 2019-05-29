@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
+
 
 import Inicio from './pages/Inicio';
 import Gamification from './pages/Gamification';
@@ -12,9 +13,10 @@ import Contacto from './pages/Contacto';
 
 
 class App extends Component {
+
   render() {
     return (
-      <Router basename="/lionsfieldcom"> 
+      <Router basename="/"> 
         <div>
         <Route exact path='/' component={Inicio} />
         <Route exact path='/Gamification' component={Gamification} />
@@ -28,5 +30,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;

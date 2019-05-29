@@ -46,6 +46,14 @@ ul.navbar-nav li a {
     margin-left: 50px;
 }
 
+.dropdown-menu.show {
+    text-align: center;
+}
+
+ul.navbar-nav li a.dropdown-item {
+    margin-left: 0;
+}
+
 @media (max-width: 767px) {
     ul.navbar-nav li a {
         margin-left: 0px;
@@ -56,4 +64,13 @@ ul.navbar-nav li a {
     .navbar-nav {
         padding-top: 30px;
     }
+}
+
+.active {
+    color: #fff!important;
+}
+
+.main-nav-active-dropdown {
+    color: #fff;
+    background-color: #145090;
 }
