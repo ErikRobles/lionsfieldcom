@@ -10,6 +10,7 @@ import ELearning from './pages/ELearning';
 import AbsoluteEngagement from './pages/AbsoluteEngagement';
 import Nosotros from './pages/Nosotros';
 import Contacto from './pages/Contacto';
+import Privacidad from './pages/Privacidad';
 
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
         <Route exact path='/AbsoluteEngagement' component={AbsoluteEngagement} />
         <Route exact path='/Nosotros' component={Nosotros} />
         <Route exact path='/Contacto' component={Contacto} />
+        <Route exact path='/Privacidad' component={Privacidad} />
         </div>
       </Router>
     );

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './ProgressBar.css';
-import styled, { keyframes } from 'styled-components';
+import styled  from 'styled-components';
 
 
 
