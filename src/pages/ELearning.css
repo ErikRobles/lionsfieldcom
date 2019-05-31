@@ -22,34 +22,36 @@
 }
   
   
-.fa-camera,
-.fa-eye,
-.fa-video,
-.fa-volume-up {
+.fa-desktop,
+.fa-user,
+.fa-money-bill-wave-alt,
+.fa-thumbs-up {
     font-size: 30px;
     color: #333!important;
     transition: ease-in-out 1.5s;
 }
 
-.fa-camera:hover {
-      color: #fff!important;
+
+.fa-desktop {
+    padding: 16px!important;
 }
 
-.fa-camera {
+.fa-user {
+    padding: 18px!important;
+}
+  
+.fa-money-bill-wave-alt {
+    transform: rotate(-30deg)!important;
+    padding: 18px 14px!important;
+}
+
+.fa-thumbs-up {
     padding: 18px!important;
 }
 
-.fa-eye {
-    padding: 16px!important;
-}
-  
-.fa-video {
-    padding: 16px!important;
-}
-
-.fa-volume-up {
-    transform: rotate(-30deg);
-    padding: 16px 16px 18px 16px!important;
+.tidy {
+    width: 90%;
+    margin: 0 auto;
 }
 
 h2.title {
@@ -97,4 +99,10 @@ h2.title {
         margin-top: 0px;
     }
 
+}
+
+@media (min-width: 1200px) {
+    .last-in-line {
+        padding-top: 36px;
+    }
 }

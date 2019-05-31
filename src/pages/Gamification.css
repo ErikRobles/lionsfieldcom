@@ -35,16 +35,20 @@
       color: #fff!important;
 }
 
+.fa-star {
+    padding: 15px!important;
+}
+
 .fa-mobile-alt {
-    padding: 14px 20px 15px 20px;
+    padding: 16px 22px!important;
 }
   
 .fa-globe {
-    padding: 14px 14.5px;
+    padding: 16px!important;
 }
 
 .fa-image {
-    padding: 15px;
+    padding: 17px!important;
 }
 
 h2.title {

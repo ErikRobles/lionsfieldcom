@@ -29,7 +29,7 @@ class Gamification extends Component {
                         </div>
                         <div className="row">
                             <div className="col-2 second-col-inner">
-                                <i class="fa fa-mobile-alt fa-2x circle-icon"></i>
+                            <i class="fas fa-mobile-alt fa-2x circle-icon"></i>
                             </div>
                             <div className="col-10">
                             <h2 className="title pt-3">Aplicaciones</h2>
