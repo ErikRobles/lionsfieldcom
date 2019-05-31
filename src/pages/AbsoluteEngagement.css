@@ -97,3 +97,36 @@ h2.title {
     width: 95%;
     margin: 0 auto;
 }
+
+
+@media (max-width: 500px){
+    h2.title {
+        font-size: 24px!important;
+        /* margin-left: 16px; */
+    }
+    .content span {
+        font-size: 16px!important;
+        /* margin-left: 16px; */
+    }
+    .fa,
+    .fas,
+    .far {
+        margin-bottom: 50%!important;
+        margin-top: 50%!important;
+        margin-right: 10px!important;
+    }
+    .fa-paper-plane,
+    .fa-calendar-alt {
+        font-size: 20px;
+        padding: 20.5px!important;
+    }
+    .fa-paper-plane {
+        padding: 20.5px 21.5px!important;
+    }
+    .fa-calendar-alt {
+        padding: 21px 22px!important;
+    }
+    .fa-fire {
+        padding: 18px 20px!important;
+    }
+}

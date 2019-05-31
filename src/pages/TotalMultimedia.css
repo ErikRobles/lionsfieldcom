@@ -98,3 +98,29 @@ h2.title {
     }
 
 }
+
+
+@media (max-width: 500px){
+    h2.title {
+        font-size: 24px!important;
+        /* margin-left: 16px; */
+    }
+    .content span {
+        font-size: 16px!important;
+        /* margin-left: 16px; */
+    }
+    .fa,
+    .fas,
+    .far {
+        margin-bottom: 50%!important;
+        margin-top: 50%!important;
+        margin-right: 10px!important;
+    }
+    .fa-camera,
+    .fa-eye,
+    .fa-video,
+    .fa-volume-up {
+        font-size: 20px;
+    }
+
+}

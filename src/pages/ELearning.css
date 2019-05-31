@@ -106,3 +106,31 @@ h2.title {
         padding-top: 36px;
     }
 }
+
+
+@media (max-width: 500px){
+    h2.title {
+        font-size: 24px!important;
+        /* margin-left: 16px; */
+    }
+    .content span {
+        font-size: 16px!important;
+        /* margin-left: 16px; */
+    }
+    .fa,
+    .fas,
+    .far {
+        margin-bottom: 50%!important;
+        margin-top: 50%!important;
+        margin-right: 10px!important;
+    }
+    .fa-desktop,
+    .fa-user,
+    .fa-money-bill-wave-alt,
+    .fa-thumbs-up {
+        font-size: 20px;
+    }
+    .fa-money-bill-wave-alt {
+        padding: 18px 16px!important;
+    }
+}
