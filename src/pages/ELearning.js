@@ -19,7 +19,7 @@ class ELearning extends Component {
                     <div className="col-lg-6 col-md-12 pt-5">
                         <div className="row">
                             <div className="col-2 second-col-inner">
-                                <i class="fas fa-desktop fa-2x circle-icon"></i>
+                                <i className="fas fa-desktop fa-2x circle-icon"></i>
                             </div>
                             <div className="col-10">
                             <h2 className="title pt-3">LMS</h2>
@@ -28,7 +28,7 @@ class ELearning extends Component {
                         </div>
                         <div className="row">
                             <div className="col-2 second-col-inner">
-                                <i class="far fa-user fa-2x circle-icon"></i>
+                                <i className="far fa-user fa-2x circle-icon"></i>
                             </div>
                             <div className="col-10">
                             <h2 className="title pt-3">Interactivo</h2>
@@ -39,7 +39,7 @@ class ELearning extends Component {
                     <div className="col-lg-6 col-md-12 pt-1 second-col">
                     <div className="row">
                             <div className="col-2 second-col-inner">
-                                <i class="float-left fas fa-money-bill-wave-alt fa-2x circle-icon"></i>
+                                <i className="float-left fas fa-money-bill-wave-alt fa-2x circle-icon"></i>
                             </div>
                             <div className="col-10">
                             <h2 className="title pt-3">Efectivo</h2>
@@ -48,7 +48,7 @@ class ELearning extends Component {
                         </div> 
                         <div className="row last-in-line">
                             <div className="col-2 second-col-inner">
-                                <i class="float-left fas fa-thumbs-up fa-2x circle-icon"></i>
+                                <i className="float-left fas fa-thumbs-up fa-2x circle-icon"></i>
                             </div>
                             <div className="col-10">
                             <h2 className="title pt-3">Sencillo</h2>

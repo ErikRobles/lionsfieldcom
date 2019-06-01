@@ -21,7 +21,7 @@ class AbsoluteEngagement extends Component {
                     <div className="col-lg-4 col-md-12 pt-5">
                         <div className="row">
                             <div className="col-2 second-col-inner">
-                                <i class="fas fa-fire fa-2x circle-icon"></i>
+                                <i className="fas fa-fire fa-2x circle-icon"></i>
                             </div>
                             <div className="col-10">
                             <h2 className="title pt-3 p-2">Total Multimedia</h2>
@@ -32,7 +32,7 @@ class AbsoluteEngagement extends Component {
                     <div className="col-lg-4 col-md-12 pt-1 second-col">
                         <div className="row">
                             <div className="col-2 second-col-inner">
-                                <i class="far fa-paper-plane fa-2x circle-icon"></i>
+                                <i className="far fa-paper-plane fa-2x circle-icon"></i>
                             </div>
                             <div className="col-10">
                             <h2 className="title pt-3 p-2">Gamification Projects</h2>
@@ -43,7 +43,7 @@ class AbsoluteEngagement extends Component {
                     <div className="col-lg-4 col-md-12 pt-1 second-col">
                         <div className="row">
                             <div className="col-2 second-col-inner">
-                                <i class="float-left far fa-calendar-alt fa-2x circle-icon"></i>
+                                <i className="float-left far fa-calendar-alt fa-2x circle-icon"></i>
                             </div>
                             <div className="col-10">
                             <h2 className="title pt-3 p-2">Efectivo</h2>
